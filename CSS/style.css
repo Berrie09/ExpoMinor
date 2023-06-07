@@ -26,7 +26,7 @@ html::-webkit-scrollbar-track {
   background: #000;
 }
 html::-webkit-scrollbar-thumb {
-  background: #f03f3f;
+  background: #d61818;
   border-radius: 5rem;
 }
 
@@ -54,7 +54,7 @@ section {
 
 .btn {
   appearance: button;
-  background-color: #f03f3f;
+  background-color: #d61818;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
@@ -112,7 +112,7 @@ section {
   color: #fff;
 }
 .header .icons:hover {
-  color: #f03f3f;
+  color: #d61818;
 }
 .header #menu-btn {
   display: none;
@@ -125,7 +125,7 @@ section {
 .header .navbar a:hover {
   text-decoration: underline;
   text-underline-offset: 1rem;
-  color: #f03f3f;
+  color: #d61818;
 }
 .header .navbar .space {
   display: inline-block;
@@ -217,7 +217,7 @@ section {
   line-height: 7rem;
   font-size: 2.5rem;
   color: #000;
-  background: #f03f3f;
+  background: #d61818;
   margin-bottom: 1rem;
   border-radius: 50%;
 }
@@ -281,7 +281,7 @@ section {
 .card .btn {
   display: inline-block;
   padding: 8px 20px;
-  background-color: #333;
+  background-color: #d61818;
   color: #fff;
   border-radius: 20px;
   text-decoration: none;
@@ -289,7 +289,8 @@ section {
 }
 
 .card .btn:hover {
-  background-color: #555;
+  background-color: rgb(255, 255, 255);
+  color: #d61818;
 }
 
 
@@ -312,21 +313,31 @@ section {
 }
 .about .image img {
   width: 100%;
+  
 }
 .about .content {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 40rem;
   flex: 1 1 40rem;
+  background-color: rgba(111, 13, 13, 0.797);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+  text-align: center;
+  transition: all 0.3s ease;
 }
 .about .content .title {
   font-size: 2.5rem;
   text-transform: uppercase;
-  color: #fff;
+  color: #FFFFFF;
+
 }
 .about .content p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #aaa;
+  color: rgb(255, 255, 255);
   padding: 2rem 0;
 }
 .about .content .icons {
@@ -349,7 +360,7 @@ section {
 }
 .about .content .icons h3 i {
   padding-right: 0.5rem;
-  color: #f03f3f;
+  color: #d61818;
 }
 
 .reviews .box-container {
@@ -385,7 +396,7 @@ section {
 }
 .reviews .box-container .box .stars i {
   font-size: 1.7rem;
-  color: #f03f3f;
+  color: #d61818;
 }
 
 .contact .row {
@@ -427,7 +438,7 @@ section {
   width: 6rem;
   line-height: 6rem;
   border-radius: 50%;
-  background: #f03f3f;
+  background: #d61818;
   color: #000;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -443,26 +454,39 @@ section {
   line-height: 2;
   color: #aaa;
 }
-.contact .row .form form {
-  text-align: center;
+.form-group {
+  margin-bottom: 20px;
 }
-.contact .row .form form .box {
-  padding: 1.2rem 1.4rem;
-  font-size: 1.6rem;
-  color: #fff;
-  background: none;
-  border: 0.2rem solid rgba(255, 255, 255, 0.3);
-  text-transform: none;
+
+.input-field {
   width: 100%;
-  margin: 0.7rem 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
 }
-.contact .row .form form .box:focus {
-  border-color: #f03f3f;
+
+.input-field:focus {
+  outline: none;
+  border-color: #555;
 }
-.contact .row .form form textarea {
-  height: 15rem;
-  resize: none;
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
+
+.submit-button:hover {
+  background-color: #555;
+}
+
 
 .blogs .box-container {
   display: -ms-grid;
@@ -513,10 +537,10 @@ section {
 }
 .blogs .box-container .box .image .icons a i {
   padding-right: 0.5rem;
-  color: #f03f3f;
+  color: #d61818;
 }
 .blogs .box-container .box .image .icons a:hover {
-  color: #f03f3f;
+  color: #d61818;
 }
 .blogs .box-container .box .image img {
   height: 100%;
@@ -555,7 +579,7 @@ section {
   padding-top: 2rem;
 }
 .footer .credit span {
-  color: #f03f3f;
+  color: #d61818;
 }
 
 
