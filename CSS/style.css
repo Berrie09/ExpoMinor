@@ -251,7 +251,6 @@ section {
 }
 
 .card:hover {
-  transform: translateY(-30px);
   box-shadow: 0 6px 8px rgb(0, 0, 0);
 }
 
