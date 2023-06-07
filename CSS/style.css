@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
 
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lilita One', cursive;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -48,7 +48,7 @@ section {
   margin-bottom: 3rem;
 }
 .heading h3 {
-  font-size: 3rem;
+  font-size: 3.8rem;
   text-transform: uppercase;
   color: #fff;
   margin-top: 1rem;
@@ -240,38 +240,62 @@ section {
   display: grid;
   -ms-grid-columns: minmax(31rem, 1fr) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
-  gap: 2rem;
+  gap: 2.7rem;
 }
-.menu .box-container .box {
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgb(0, 0, 0);
   text-align: center;
+  transition: all 0.3s ease;
 }
-.menu .box-container .box:hover img {
-  -webkit-transform: translateY(1rem);
-  transform: translateY(1rem);
+
+.card:hover {
+  transform: translateY(-30px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
-.menu .box-container .box img {
-  height: 25rem;
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
-.menu .box-container .box .content {
-  padding: 1rem 0;
+
+.card .stars {
+  color: #ffc107;
+  margin-bottom: 10px;
 }
-.menu .box-container .box .content .stars {
-  margin-bottom: 2rem;
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
-.menu .box-container .box .content .stars i {
-  font-size: 1.7rem;
-  color: #f03f3f;
+
+.card .price {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
 }
-.menu .box-container .box .content h3 {
-  font-size: 2rem;
-  text-transform: uppercase;
+
+.card .btn {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #333;
   color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
-.menu .box-container .box .content .price {
-  font-size: 2rem;
-  line-height: 2;
-  color: #aaa;
+
+.card .btn:hover {
+  background-color: #555;
 }
+
+
 
 .about {
   display: -webkit-box;
