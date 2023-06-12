@@ -373,6 +373,10 @@ box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
 .reviews .box-container .box {
   text-align: center;
   padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.851);
+  border-radius: 5%; 
+  box-shadow: 0 6px 8px rgba(191, 0, 0, 0.276);
+  
 }
 .reviews .box-container .box img {
   height: 10rem;
